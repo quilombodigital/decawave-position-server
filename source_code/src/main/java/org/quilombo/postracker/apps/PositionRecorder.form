@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.quilombo.postracker.apps.PositionRecorder">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="751" height="529"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ca8c1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tags"/>
+        </properties>
+      </component>
+      <component id="d5c72" class="javax.swing.JList" binding="tagsList" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model/>
+          <selectionMode value="0"/>
+        </properties>
+      </component>
+      <component id="56656" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sessions"/>
+        </properties>
+      </component>
+      <component id="10cb6" class="javax.swing.JList" binding="sessionsList" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <selectionMode value="1"/>
+        </properties>
+      </component>
+      <component id="fb34a" class="javax.swing.JButton" binding="startSessionButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Start Session"/>
+        </properties>
+      </component>
+      <component id="6a65f" class="javax.swing.JButton" binding="stopSessionButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stop Session"/>
+        </properties>
+      </component>
+      <component id="cb2cf" class="javax.swing.JButton" binding="timeHeatmapButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Time HeatMap"/>
+        </properties>
+      </component>
+      <component id="1d8ab" class="javax.swing.JButton" binding="playbackButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Playback"/>
+        </properties>
+      </component>
+      <component id="569d2" class="javax.swing.JButton" binding="removeSessionButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove Session"/>
+        </properties>
+      </component>
+      <component id="c5f4a" class="javax.swing.JButton" binding="sessionTimeHeatmapButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Session Time Heatmap"/>
+        </properties>
+      </component>
+      <component id="b4a0" class="javax.swing.JButton" binding="areaHeatmapButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Area Heatmap"/>
+        </properties>
+      </component>
+      <component id="eba90" class="javax.swing.JButton" binding="sessionAreaHeatmapButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Session Area Heatmap"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

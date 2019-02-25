@@ -1,0 +1,1 @@
+java -cp ./bin/postracker.jar org.quilombo.postracker.apps.PositionServer
