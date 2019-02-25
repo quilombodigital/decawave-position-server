@@ -14,7 +14,6 @@ public class ProjectConfig {
 
     public String serialPort;
     public int websocketPort;
-    public int sendRate;
 
     public static class Offset {
         public int x;

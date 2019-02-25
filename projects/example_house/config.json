@@ -8,7 +8,5 @@
     { "name":"8724","x":3.15,"y":9.40,"z":0.0 },
     { "name":"9CB8","x":0.0,"y":9.40,"z":0.0 }
   ],
-  "serialPort":"COM9",
-  "websocketPort":8090,
-  "sendRate":200
+  "websocketPort":8090
 }

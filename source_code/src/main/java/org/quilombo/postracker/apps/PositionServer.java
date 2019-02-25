@@ -1,7 +1,7 @@
 package org.quilombo.postracker.apps;
 
 import com.fazecast.jSerialComm.SerialPort;
-import org.quilombo.postracker.core.ProjectConfig;
+import org.quilombo.postracker.core.ServerConfig;
 import org.quilombo.postracker.gui.GuiUtil;
 import org.quilombo.postracker.model.TagsHolder;
 import org.quilombo.postracker.serial.SerialReaderWebsocketSender;
@@ -20,7 +20,7 @@ public class PositionServer {
     private PositionServer() {
     }
 
-    public void startServer(ProjectConfig config) throws InterruptedException, IOException {
+    public void startServer(ServerConfig config) throws InterruptedException, IOException {
 
         tagsHolder = new TagsHolder();
 
@@ -50,7 +50,7 @@ public class PositionServer {
 
 
     public static void main(String[] args) throws Exception {
-        ProjectConfig config = ProjectConfig.load(GuiUtil.chooseProject());
+        ServerConfig config = ServerConfig.load();
         PositionServer.instance.startServer(config);
     }
 
